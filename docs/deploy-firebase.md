@@ -30,6 +30,13 @@ guide](https://www.firebase.com/docs/hosting/quickstart.html).
     use that one. Otherwise go to
     [https://www.firebase.com/account](https://www.firebase.com/account) to
     create a new app.
+    
+1.  Select only hosting
+      
+        What Firebase CLI features do you want to set up for this directory?
+         ( )Database: Deploy Firebase Realtime Database Rules
+         ( )Functions: Configure and deploy Cloud Functions
+         (*)Hosting: Configure and deploy Firebase Hosting sites
 
 1.  Firebase asks you the name of your app's public directory. Enter `dist`.
     This works because when you run `gulp` to build your application, WSK
